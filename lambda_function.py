@@ -1,7 +1,7 @@
 import boto3
 import pandas as pd
 import json
-import StringIO
+from io import StringIO
 
 s3_client=boto3.client("s3")
 sns_client=boto3.client("sns")
